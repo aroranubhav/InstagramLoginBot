@@ -8,7 +8,7 @@ password = sys.argv[2]
 class LoginBot():
     def __init__(self):
         self.driver = webdriver.Chrome()
-        self.username = username
+        
         self.driver.get("https://instagram.com")
         sleep(2)
     
